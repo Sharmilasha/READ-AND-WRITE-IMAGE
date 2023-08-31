@@ -23,11 +23,20 @@ End the program and close the output image windows.
 ### Register Number: 
 i) #To Read,display the image
 ```
-  
+import cv2
+color_img=cv2.imread('pup.jpg',1)
+cv2.imshow('212221230094_SHARMILA',color_img)
+cv2.waitKey(0)  
+
 
 ```
 ii) #To write the image
 ```
+import cv2
+color_img=cv2.imread('pup.jpg',1)
+w=cv2.imwrite('1.png',color_img)
+cv2.imshow('212221230094_SHARMILA',color_img)
+cv2.waitKey(0) 
 
 
 
@@ -35,18 +44,37 @@ ii) #To write the image
 iii) #Find the shape of the Image
 ```python3
 
+import cv2
+import random
+color_img=cv2.imread('pup.jpg',1)
+print(color_img.shape)
 
 
 ```
 iv) #To access rows and columns
 
 ```python3
+import cv2
+import random
+color_img=cv2.imread('pup.jpg',1)
+for i in range(100):
+    for j in range(color_img.shape[1]):
+        color_img[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow('212221230094_SHARMILA',color_img)
+cv2.waitKey(0)
+
 
 
 
 ```
 v) #To cut and paste portion of image
 ```python3
+import cv2
+color_image=cv2.imread('pup.jpg',-1)
+tag=color_image[300:400,300:400]
+color_image[50:150,50:150]=tag
+cv2.imshow('212221230094_SHARMILA',color_image)
+cv2.waitKey(0)
 
 
 
@@ -57,20 +85,27 @@ v) #To cut and paste portion of image
 ### i) Read and display the image
 
 <br>
+![op1](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/516442a9-10cd-402a-91b4-cefa530fc83a)
+
 <br>
 
 ### ii)Write the image
 
 <br>
+![op2](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/c709da0a-87cd-4dc2-962b-974c5b8a30f6)
+
 <br>
 
 ### iii)Shape of the Image
 
 <br>
+![op3](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/b2373a99-4748-458d-96b2-e432811394a2)
+
 <br>
 
 ### iv)Access rows and columns
 <br>
+
 <br>
 
 ### v)Cut and paste portion of image
