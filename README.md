@@ -92,24 +92,22 @@ cv2.waitKey(0)
 ### ii)Write the image
 
 
-![op2](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/c709da0a-87cd-4dc2-962b-974c5b8a30f6)
+![op1](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/516442a9-10cd-402a-91b4-cefa530fc83a)
+
 
 
 
 ### iii)Shape of the Image
 
 
-![op3](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/b2373a99-4748-458d-96b2-e432811394a2)
+![op2](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/c709da0a-87cd-4dc2-962b-974c5b8a30f6)
 
 
 ### iv)Access rows and columns
-<br>
-
-<br>
-
+![op3](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/b2373a99-4748-458d-96b2-e432811394a2)
 ### v)Cut and paste portion of image
-<br>
-<br>
+![op4 (1)](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/8ce17de3-4c1a-4705-be22-aec561dec4f7)
+
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
