@@ -84,24 +84,23 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-<br>
+
 ![op1](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/516442a9-10cd-402a-91b4-cefa530fc83a)
 
-<br>
+
 
 ### ii)Write the image
 
-<br>
+
 ![op2](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/c709da0a-87cd-4dc2-962b-974c5b8a30f6)
 
-<br>
+
 
 ### iii)Shape of the Image
 
-<br>
+
 ![op3](https://github.com/Sharmilasha/READ-AND-WRITE-IMAGE/assets/94506182/b2373a99-4748-458d-96b2-e432811394a2)
 
-<br>
 
 ### iv)Access rows and columns
 <br>
